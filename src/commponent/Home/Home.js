@@ -1,7 +1,10 @@
 import React from 'react';
 import About from '../about/About';
+import Blog from '../about/blog/Blog';
 import Carousel from '../Carousel/Carousel';
 import ServiceHome from '../serivehome/ServiceHome';
+import Subscription from '../subscription/Subscription';
+import Team from '../Team/Team';
 
 const Home = () => {
     return (
@@ -18,6 +21,9 @@ const Home = () => {
         <Carousel></Carousel>
         <About></About>
         <ServiceHome></ServiceHome>
+        <Team></Team>
+        <Subscription></Subscription>
+        <Blog></Blog>
         </div>
     );
 };
