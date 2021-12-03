@@ -11,7 +11,7 @@ const Subscription = () => {
             <div className="flex justify-center mt-36 ">
             <div className="border-4 border-light-blue-500 border-opacity-100 px-20 py-10 rounded-full">
             <h1 className="text-2xl">Stay in touch subscribebing to our newsletter</h1>
-            <div className="mt-12 flex justify-between border-b-2">
+            <div className="mt-12 flex justify-between border-b-2 pb-3">
             <input type="email" placeholder="Email Address" className="bg-transparent outline-none"  />
             <button>BLAST OFF</button>
             </div>
